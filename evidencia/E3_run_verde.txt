@@ -1,0 +1,1 @@
+completed	failure	Progresando	DevSecOps security checks	main	push	42948451822	28s	2026-11-11T02:47:57Z
