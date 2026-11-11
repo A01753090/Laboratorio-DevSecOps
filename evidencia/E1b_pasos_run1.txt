@@ -1,0 +1,10 @@
+Set up job: success
+Checkout: success
+Set up Python: success
+Install audit and test tools: success
+Unit and security regression tests (pytest): success
+Static analysis (Bandit): success
+Dependency audit (pip-audit): failure
+Post Set up Python: skipped
+Post Checkout: success
+Complete job: success

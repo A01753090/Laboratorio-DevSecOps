@@ -1,0 +1,52 @@
+verify	Dependency audit (pip-audit)	﻿2026-11-11T03:05:35.6091165Z ##[group]Run python -m pip_audit -r requirements-audit.txt
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:35.6091549Z ^[[36;1mpython -m pip_audit -r requirements-audit.txt^[[0m
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:35.6135288Z shell: /usr/bin/bash -e {0}
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:35.6135499Z env:
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:35.6135714Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:35.6136061Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:35.6136402Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:35.6136712Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:35.6137033Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:35.6137343Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:35.6137609Z ##[endgroup]
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5129600Z Found 37 known vulnerabilities in 3 packages
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5140776Z Name     Version ID              Fix Versions
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5141172Z -------- ------- --------------- -------------
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5141604Z requests 2.19.1  PYSEC-2018-28   2.20.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5141909Z requests 2.19.1  PYSEC-2018-28   2.20.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5142195Z requests 2.19.1  PYSEC-2023-74   2.31.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5142488Z requests 2.19.1  PYSEC-2023-74   2.31.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5142774Z requests 2.19.1  PYSEC-2026-1873 2.32.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5143053Z requests 2.19.1  PYSEC-2026-1872 2.32.4
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5143355Z requests 2.19.1  PYSEC-2026-2275 2.33.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5143657Z requests 2.19.1  PYSEC-2026-1873 2.32.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5143957Z requests 2.19.1  PYSEC-2026-1872 2.32.4
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5144282Z requests 2.19.1  PYSEC-2026-2275 2.33.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5144589Z idna     2.7     PYSEC-2024-60   3.7
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5144831Z idna     2.7     PYSEC-2024-60   3.7
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5145042Z idna     2.7     PYSEC-2026-215  3.15
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5145249Z idna     2.7     PYSEC-2026-215  3.15
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5145450Z urllib3  1.23    PYSEC-2019-133  1.24.2
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5145664Z urllib3  1.23    PYSEC-2019-132  1.24.3
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5145878Z urllib3  1.23    PYSEC-2020-148  1.25.9
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5146080Z urllib3  1.23    PYSEC-2019-133  1.24.2
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5146277Z urllib3  1.23    PYSEC-2020-148  1.25.9
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5146485Z urllib3  1.23    PYSEC-2019-132  1.24.3
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5146703Z urllib3  1.23    PYSEC-2026-1995 1.26.19,2.2.2
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5146937Z urllib3  1.23    PYSEC-2023-192  1.26.17,2.0.6
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5147163Z urllib3  1.23    PYSEC-2023-192  1.26.17,2.0.6
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5147385Z urllib3  1.23    PYSEC-2023-207  1.24.2
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5147592Z urllib3  1.23    PYSEC-2023-212  1.26.18,2.0.7
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5147809Z urllib3  1.23    PYSEC-2023-207  1.24.2
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5148015Z urllib3  1.23    PYSEC-2023-212  1.26.18,2.0.7
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5148228Z urllib3  1.23    PYSEC-2026-1999 2.5.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5148436Z urllib3  1.23    PYSEC-2026-1994 2.6.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5148638Z urllib3  1.23    PYSEC-2026-1996 2.6.3
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5148844Z urllib3  1.23    PYSEC-2026-141  2.7.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5149047Z urllib3  1.23    PYSEC-2026-141  2.7.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5149242Z urllib3  1.23    PYSEC-2026-1999 2.5.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5149447Z urllib3  1.23    PYSEC-2026-1995 1.26.19,2.2.2
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5149654Z urllib3  1.23    PYSEC-2026-1994 2.6.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5149848Z urllib3  1.23    PYSEC-2026-1996 2.6.3
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5150049Z urllib3  1.23    PYSEC-2026-4177 2.8.0
+verify	Dependency audit (pip-audit)	2026-11-11T03:05:44.5482261Z ##[error]Process completed with exit code 1.
