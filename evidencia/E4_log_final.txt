@@ -1,0 +1,307 @@
+verify	Set up job	﻿2026-11-11T03:11:02.9443739Z Current runner version: '2.338.2'
+verify	Set up job	2026-11-11T03:11:02.9471567Z ##[group]Runner Image Provisioner
+verify	Set up job	2026-11-11T03:11:02.9472392Z Hosted Compute Agent
+verify	Set up job	2026-11-11T03:11:02.9473292Z Version: 20261028.624
+verify	Set up job	2026-11-11T03:11:02.9473947Z Commit: 54898b74c23fde5556c9b3c3a2290865feef0dfe
+verify	Set up job	2026-11-11T03:11:02.9474629Z Build Date: 2026-10-28T21:51:42Z
+verify	Set up job	2026-11-11T03:11:02.9475360Z Worker ID: {72dd54c0-b42b-4ef9-8843-584ff63f433f}
+verify	Set up job	2026-11-11T03:11:02.9476058Z Region: northcentralus
+verify	Set up job	2026-11-11T03:11:02.9476687Z Cloud: Azure
+verify	Set up job	2026-11-11T03:11:02.9477289Z ##[endgroup]
+verify	Set up job	2026-11-11T03:11:02.9478576Z ##[group]Operating System
+verify	Set up job	2026-11-11T03:11:02.9479270Z Ubuntu
+verify	Set up job	2026-11-11T03:11:02.9479770Z 26.04.1
+verify	Set up job	2026-11-11T03:11:02.9480363Z LTS
+verify	Set up job	2026-11-11T03:11:02.9480897Z ##[endgroup]
+verify	Set up job	2026-11-11T03:11:02.9481439Z ##[group]Runner Image
+verify	Set up job	2026-11-11T03:11:02.9482111Z Image: ubuntu-26.04
+verify	Set up job	2026-11-11T03:11:02.9482662Z Version: 20261101.186.1
+verify	Set up job	2026-11-11T03:11:02.9483958Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261101.186/images/ubuntu/Ubuntu2604-Readme.md
+verify	Set up job	2026-11-11T03:11:02.9485734Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261101.186
+verify	Set up job	2026-11-11T03:11:02.9486769Z ##[endgroup]
+verify	Set up job	2026-11-11T03:11:02.9487885Z ##[group]GITHUB_TOKEN Permissions
+verify	Set up job	2026-11-11T03:11:02.9490637Z Contents: read
+verify	Set up job	2026-11-11T03:11:02.9491213Z Metadata: read
+verify	Set up job	2026-11-11T03:11:02.9491818Z ##[endgroup]
+verify	Set up job	2026-11-11T03:11:02.9494232Z Secret source: Actions
+verify	Set up job	2026-11-11T03:11:02.9495271Z Cache mode: write
+verify	Set up job	2026-11-11T03:11:02.9496298Z Prepare workflow directory
+verify	Set up job	2026-11-11T03:11:02.9770944Z Prepare all required actions
+verify	Set up job	2026-11-11T03:11:02.9809119Z Getting action download info
+verify	Set up job	2026-11-11T03:11:03.2220406Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+verify	Set up job	2026-11-11T03:11:03.3063429Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+verify	Set up job	2026-11-11T03:11:03.4646323Z Complete job name: verify
+verify	Checkout	﻿2026-11-11T03:11:03.5381867Z ##[group]Run actions/checkout@v4
+verify	Checkout	2026-11-11T03:11:03.5382426Z with:
+verify	Checkout	2026-11-11T03:11:03.5382729Z   repository: A01753090/Laboratorio-DevSecOps
+verify	Checkout	2026-11-11T03:11:03.5385255Z   token: ***
+verify	Checkout	2026-11-11T03:11:03.5385518Z   ssh-strict: true
+verify	Checkout	2026-11-11T03:11:03.5385791Z   ssh-user: git
+verify	Checkout	2026-11-11T03:11:03.5386071Z   persist-credentials: true
+verify	Checkout	2026-11-11T03:11:03.5386376Z   clean: true
+verify	Checkout	2026-11-11T03:11:03.5386657Z   sparse-checkout-cone-mode: true
+verify	Checkout	2026-11-11T03:11:03.5387294Z   fetch-depth: 1
+verify	Checkout	2026-11-11T03:11:03.5387673Z   fetch-tags: false
+verify	Checkout	2026-11-11T03:11:03.5388069Z   show-progress: true
+verify	Checkout	2026-11-11T03:11:03.5388459Z   lfs: false
+verify	Checkout	2026-11-11T03:11:03.5388814Z   submodules: false
+verify	Checkout	2026-11-11T03:11:03.5389202Z   set-safe-directory: true
+verify	Checkout	2026-11-11T03:11:03.5389650Z   allow-unsafe-pr-checkout: false
+verify	Checkout	2026-11-11T03:11:03.5390349Z ##[endgroup]
+verify	Checkout	2026-11-11T03:11:03.7682729Z Syncing repository: A01753090/Laboratorio-DevSecOps
+verify	Checkout	2026-11-11T03:11:03.7685315Z ##[group]Getting Git version info
+verify	Checkout	2026-11-11T03:11:03.7686219Z Working directory is '/home/runner/work/Laboratorio-DevSecOps/Laboratorio-DevSecOps'
+verify	Checkout	2026-11-11T03:11:03.7687624Z [command]/usr/bin/git version
+verify	Checkout	2026-11-11T03:11:03.7692702Z git version 2.56.0
+verify	Checkout	2026-11-11T03:11:03.7709309Z ##[endgroup]
+verify	Checkout	2026-11-11T03:11:03.7722518Z Temporarily overriding HOME='/home/runner/work/_temp/93bb4a7a-b2eb-4c62-9d63-0456bc979dfe' before making global git config changes
+verify	Checkout	2026-11-11T03:11:03.7724550Z Adding repository directory to the temporary git global config as a safe directory
+verify	Checkout	2026-11-11T03:11:03.7727878Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Laboratorio-DevSecOps/Laboratorio-DevSecOps
+verify	Checkout	2026-11-11T03:11:03.7793739Z Deleting the contents of '/home/runner/work/Laboratorio-DevSecOps/Laboratorio-DevSecOps'
+verify	Checkout	2026-11-11T03:11:03.7797581Z ##[group]Initializing the repository
+verify	Checkout	2026-11-11T03:11:03.7804265Z [command]/usr/bin/git init /home/runner/work/Laboratorio-DevSecOps/Laboratorio-DevSecOps
+verify	Checkout	2026-11-11T03:11:03.7906980Z hint: Using 'master' as the name for the initial branch. This default branch name
+verify	Checkout	2026-11-11T03:11:03.7908383Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+verify	Checkout	2026-11-11T03:11:03.7909027Z hint: to use in all of your new repositories, which will suppress this warning,
+verify	Checkout	2026-11-11T03:11:03.7909571Z hint: call:
+verify	Checkout	2026-11-11T03:11:03.7909847Z hint:
+verify	Checkout	2026-11-11T03:11:03.7910234Z hint: 	git config --global init.defaultBranch <name>
+verify	Checkout	2026-11-11T03:11:03.7910649Z hint:
+verify	Checkout	2026-11-11T03:11:03.7911037Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+verify	Checkout	2026-11-11T03:11:03.7911656Z hint: 'development'. The just-created branch can be renamed via this command:
+verify	Checkout	2026-11-11T03:11:03.7912144Z hint:
+verify	Checkout	2026-11-11T03:11:03.7912422Z hint: 	git branch -m <name>
+verify	Checkout	2026-11-11T03:11:03.7912737Z hint:
+verify	Checkout	2026-11-11T03:11:03.7913330Z hint: Disable this message with "git config set advice.defaultBranchName false"
+verify	Checkout	2026-11-11T03:11:03.7921237Z Initialized empty Git repository in /home/runner/work/Laboratorio-DevSecOps/Laboratorio-DevSecOps/.git/
+verify	Checkout	2026-11-11T03:11:03.7933551Z [command]/usr/bin/git remote add origin https://github.com/A01753090/Laboratorio-DevSecOps
+verify	Checkout	2026-11-11T03:11:03.7985354Z ##[endgroup]
+verify	Checkout	2026-11-11T03:11:03.7986134Z ##[group]Disabling automatic garbage collection
+verify	Checkout	2026-11-11T03:11:03.7989277Z [command]/usr/bin/git config --local gc.auto 0
+verify	Checkout	2026-11-11T03:11:03.8028100Z ##[endgroup]
+verify	Checkout	2026-11-11T03:11:03.8028691Z ##[group]Setting up auth
+verify	Checkout	2026-11-11T03:11:03.8035737Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+verify	Checkout	2026-11-11T03:11:03.8072621Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+verify	Checkout	2026-11-11T03:11:03.8456572Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verify	Checkout	2026-11-11T03:11:03.8489649Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+verify	Checkout	2026-11-11T03:11:03.8744449Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+verify	Checkout	2026-11-11T03:11:03.8779449Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+verify	Checkout	2026-11-11T03:11:03.9031689Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+verify	Checkout	2026-11-11T03:11:03.9072596Z ##[endgroup]
+verify	Checkout	2026-11-11T03:11:03.9073830Z ##[group]Fetching the repository
+verify	Checkout	2026-11-11T03:11:03.9081692Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +5dbaf0708b43a7ef660ff17080c5804183826bb4:refs/remotes/origin/main
+verify	Checkout	2026-11-11T03:11:04.1351258Z From https://github.com/A01753090/Laboratorio-DevSecOps
+verify	Checkout	2026-11-11T03:11:04.1352482Z  * [new ref]         5dbaf0708b43a7ef660ff17080c5804183826bb4 -> origin/main
+verify	Checkout	2026-11-11T03:11:04.1355473Z ##[endgroup]
+verify	Checkout	2026-11-11T03:11:04.1356439Z ##[group]Determining the checkout info
+verify	Checkout	2026-11-11T03:11:04.1358013Z ##[endgroup]
+verify	Checkout	2026-11-11T03:11:04.1363365Z [command]/usr/bin/git sparse-checkout disable
+verify	Checkout	2026-11-11T03:11:04.1412862Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+verify	Checkout	2026-11-11T03:11:04.1445516Z ##[group]Checking out the ref
+verify	Checkout	2026-11-11T03:11:04.1449693Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+verify	Checkout	2026-11-11T03:11:04.1551186Z Switched to a new branch 'main'
+verify	Checkout	2026-11-11T03:11:04.1554607Z branch 'main' set up to track 'origin/main'.
+verify	Checkout	2026-11-11T03:11:04.1560513Z ##[endgroup]
+verify	Checkout	2026-11-11T03:11:04.1603583Z [command]/usr/bin/git log -1 --format=%H
+verify	Checkout	2026-11-11T03:11:04.1628360Z 5dbaf0708b43a7ef660ff17080c5804183826bb4
+verify	Set up Python	﻿2026-11-11T03:11:04.1874341Z ##[group]Run actions/setup-python@v5
+verify	Set up Python	2026-11-11T03:11:04.1874796Z with:
+verify	Set up Python	2026-11-11T03:11:04.1875093Z   python-version: 3.12
+verify	Set up Python	2026-11-11T03:11:04.1875418Z   check-latest: false
+verify	Set up Python	2026-11-11T03:11:04.1877853Z   token: ***
+verify	Set up Python	2026-11-11T03:11:04.1878338Z   update-environment: true
+verify	Set up Python	2026-11-11T03:11:04.1878684Z   allow-prereleases: false
+verify	Set up Python	2026-11-11T03:11:04.1879011Z   freethreaded: false
+verify	Set up Python	2026-11-11T03:11:04.1879322Z ##[endgroup]
+verify	Set up Python	2026-11-11T03:11:04.2880867Z ##[group]Installed versions
+verify	Set up Python	2026-11-11T03:11:04.2955998Z (node:2175) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+verify	Set up Python	2026-11-11T03:11:04.2957607Z (Use `node --trace-deprecation ...` to show where the warning was created)
+verify	Set up Python	2026-11-11T03:11:04.2958489Z Successfully set up CPython (3.12.16)
+verify	Set up Python	2026-11-11T03:11:04.2959463Z ##[endgroup]
+verify	Install audit and test tools	﻿2026-11-11T03:11:04.3264850Z ##[group]Run python -m pip install --upgrade pip
+verify	Install audit and test tools	2026-11-11T03:11:04.3265886Z ^[[36;1mpython -m pip install --upgrade pip^[[0m
+verify	Install audit and test tools	2026-11-11T03:11:04.3266607Z ^[[36;1mpython -m pip install -r requirements.txt^[[0m
+verify	Install audit and test tools	2026-11-11T03:11:04.3331609Z shell: /usr/bin/bash -e {0}
+verify	Install audit and test tools	2026-11-11T03:11:04.3332097Z env:
+verify	Install audit and test tools	2026-11-11T03:11:04.3332474Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Install audit and test tools	2026-11-11T03:11:04.3333250Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+verify	Install audit and test tools	2026-11-11T03:11:04.3333821Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Install audit and test tools	2026-11-11T03:11:04.3334340Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Install audit and test tools	2026-11-11T03:11:04.3334835Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Install audit and test tools	2026-11-11T03:11:04.3335330Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+verify	Install audit and test tools	2026-11-11T03:11:04.3335770Z ##[endgroup]
+verify	Install audit and test tools	2026-11-11T03:11:04.8100683Z Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages (26.2.2)
+verify	Install audit and test tools	2026-11-11T03:11:04.8565387Z Collecting pip
+verify	Install audit and test tools	2026-11-11T03:11:04.8809612Z   Downloading pip-26.3-py3-none-any.whl.metadata (4.6 kB)
+verify	Install audit and test tools	2026-11-11T03:11:04.8892814Z Downloading pip-26.3-py3-none-any.whl (2.0 MB)
+verify	Install audit and test tools	2026-11-11T03:11:05.0004627Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 16.7 MB/s  0:00:00
+verify	Install audit and test tools	2026-11-11T03:11:05.0437089Z Installing collected packages: pip
+verify	Install audit and test tools	2026-11-11T03:11:05.0438521Z   Attempting uninstall: pip
+verify	Install audit and test tools	2026-11-11T03:11:05.0452413Z     Found existing installation: pip 26.2.2
+verify	Install audit and test tools	2026-11-11T03:11:05.0770575Z     Uninstalling pip-26.2.2:
+verify	Install audit and test tools	2026-11-11T03:11:05.0819992Z       Successfully uninstalled pip-26.2.2
+verify	Install audit and test tools	2026-11-11T03:11:05.9028663Z Successfully installed pip-26.3
+verify	Install audit and test tools	2026-11-11T03:11:06.2344744Z Collecting pytest<10,>=8.0 (from -r requirements.txt (line 1))
+verify	Install audit and test tools	2026-11-11T03:11:06.2533870Z   Downloading pytest-9.2.0-py3-none-any.whl.metadata (7.9 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.2696826Z Collecting bandit<2,>=1.7 (from -r requirements.txt (line 2))
+verify	Install audit and test tools	2026-11-11T03:11:06.2730904Z   Downloading bandit-1.9.4-py3-none-any.whl.metadata (7.1 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.2949348Z Collecting pip-audit<3,>=2.7 (from -r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.2987873Z   Downloading pip_audit-2.10.1-py3-none-any.whl.metadata (28 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.3119044Z Collecting iniconfig>=2 (from pytest<10,>=8.0->-r requirements.txt (line 1))
+verify	Install audit and test tools	2026-11-11T03:11:06.3157741Z   Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.3270342Z Collecting packaging>=24 (from pytest<10,>=8.0->-r requirements.txt (line 1))
+verify	Install audit and test tools	2026-11-11T03:11:06.3309379Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.3419200Z Collecting pluggy<2,>=1.6 (from pytest<10,>=8.0->-r requirements.txt (line 1))
+verify	Install audit and test tools	2026-11-11T03:11:06.3581398Z   Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.3862385Z Collecting pygments>=2.15 (from pytest<10,>=8.0->-r requirements.txt (line 1))
+verify	Install audit and test tools	2026-11-11T03:11:06.3893336Z   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.4128783Z Collecting PyYAML>=5.3.1 (from bandit<2,>=1.7->-r requirements.txt (line 2))
+verify	Install audit and test tools	2026-11-11T03:11:06.4176049Z   Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.4311703Z Collecting stevedore>=1.20.0 (from bandit<2,>=1.7->-r requirements.txt (line 2))
+verify	Install audit and test tools	2026-11-11T03:11:06.4343159Z   Downloading stevedore-5.9.1-py3-none-any.whl.metadata (2.3 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.4817066Z Collecting rich (from bandit<2,>=1.7->-r requirements.txt (line 2))
+verify	Install audit and test tools	2026-11-11T03:11:06.4850407Z   Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.4963522Z Collecting CacheControl>=0.13.0 (from CacheControl[filecache]>=0.13.0->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.4996847Z   Downloading cachecontrol-0.14.4-py3-none-any.whl.metadata (3.1 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.5189843Z Collecting cyclonedx-python-lib<12,>=5 (from pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.5230244Z   Downloading cyclonedx_python_lib-11.12.0-py3-none-any.whl.metadata (6.9 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.5422385Z Collecting pip-api>=0.0.28 (from pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.5450201Z   Downloading pip_api-0.0.35-py3-none-any.whl.metadata (17 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.5542810Z Collecting pip-requirements-parser>=32.0.0 (from pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.5579590Z   Downloading pip_requirements_parser-32.0.1-py3-none-any.whl.metadata (9.3 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.5721969Z Collecting requests>=2.31.0 (from pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.5758823Z   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.5967517Z Collecting tomli>=2.2.1 (from pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.6000985Z   Downloading tomli-2.5.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (10 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.6213176Z Collecting tomli-w>=1.2.0 (from pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.6239661Z   Downloading tomli_w-1.2.0-py3-none-any.whl.metadata (5.7 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.6395646Z Collecting platformdirs>=4.2.0 (from pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.6426013Z   Downloading platformdirs-4.14.5-py3-none-any.whl.metadata (5.7 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.6540654Z Collecting license-expression<31,>=30 (from cyclonedx-python-lib<12,>=5->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.6584355Z   Downloading license_expression-30.4.4-py3-none-any.whl.metadata (11 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.6711671Z Collecting packageurl-python<2,>=0.11 (from cyclonedx-python-lib<12,>=5->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.6744625Z   Downloading packageurl_python-0.17.6-py3-none-any.whl.metadata (5.1 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.6965567Z Collecting py-serializable<3.0.0,>=2.1.0 (from cyclonedx-python-lib<12,>=5->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.7002453Z   Downloading py_serializable-2.2.0-py3-none-any.whl.metadata (4.5 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.7098081Z Collecting sortedcontainers<3.0.0,>=2.4.0 (from cyclonedx-python-lib<12,>=5->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.7127204Z   Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl.metadata (10 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.7243843Z Collecting typing_extensions<5.0,>=4.6 (from cyclonedx-python-lib<12,>=5->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.7272655Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.7392064Z Collecting boolean.py>=4.0 (from license-expression<31,>=30->cyclonedx-python-lib<12,>=5->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.7421012Z   Downloading boolean_py-5.0-py3-none-any.whl.metadata (2.3 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.7546290Z Collecting defusedxml<0.8.0,>=0.7.1 (from py-serializable<3.0.0,>=2.1.0->cyclonedx-python-lib<12,>=5->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.7594590Z   Downloading defusedxml-0.7.1-py2.py3-none-any.whl.metadata (32 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.8218028Z Collecting msgpack<2.0.0,>=0.5.2 (from CacheControl>=0.13.0->CacheControl[filecache]>=0.13.0->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.8250817Z   Downloading msgpack-1.2.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.8448788Z Collecting filelock>=3.8.0 (from CacheControl[filecache]>=0.13.0->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.8482398Z   Downloading filelock-4.2.10-py3-none-any.whl.metadata (2.3 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.8572740Z Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages (from pip-api>=0.0.28->pip-audit<3,>=2.7->-r requirements.txt (line 3)) (26.3)
+verify	Install audit and test tools	2026-11-11T03:11:06.8722698Z Collecting pyparsing (from pip-requirements-parser>=32.0.0->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.8757919Z   Downloading pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.9518025Z Collecting charset_normalizer<4,>=2 (from requests>=2.31.0->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.9551112Z   Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.9680112Z Collecting idna<4,>=2.5 (from requests>=2.31.0->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.9734530Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+verify	Install audit and test tools	2026-11-11T03:11:06.9884679Z Collecting urllib3<3,>=1.26 (from requests>=2.31.0->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:06.9915318Z   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.0043221Z Collecting certifi>=2023.5.7 (from requests>=2.31.0->pip-audit<3,>=2.7->-r requirements.txt (line 3))
+verify	Install audit and test tools	2026-11-11T03:11:07.0074427Z   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.0334767Z Collecting markdown-it-py>=2.2.0 (from rich->bandit<2,>=1.7->-r requirements.txt (line 2))
+verify	Install audit and test tools	2026-11-11T03:11:07.0365058Z   Downloading markdown_it_py-4.3.0-py3-none-any.whl.metadata (7.9 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.0481821Z Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->bandit<2,>=1.7->-r requirements.txt (line 2))
+verify	Install audit and test tools	2026-11-11T03:11:07.0527813Z   Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.0602674Z Downloading pytest-9.2.0-py3-none-any.whl (411 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.0685464Z Downloading bandit-1.9.4-py3-none-any.whl (134 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.0750470Z Downloading pip_audit-2.10.1-py3-none-any.whl (62 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.0802274Z Downloading cyclonedx_python_lib-11.12.0-py3-none-any.whl (529 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.0861288Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 529.5/529.5 kB 127.4 MB/s  0:00:00
+verify	Install audit and test tools	2026-11-11T03:11:07.0890419Z Downloading license_expression-30.4.4-py3-none-any.whl (120 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.0936402Z Downloading packageurl_python-0.17.6-py3-none-any.whl (36 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.0980252Z Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.1183275Z Downloading py_serializable-2.2.0-py3-none-any.whl (23 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.1234680Z Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.1278884Z Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.1324684Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.1366931Z Downloading boolean_py-5.0-py3-none-any.whl (26 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.1410499Z Downloading cachecontrol-0.14.4-py3-none-any.whl (22 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.1451966Z Downloading msgpack-1.2.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (475 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.1501924Z Downloading filelock-4.2.10-py3-none-any.whl (218 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.1547774Z Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.1593441Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.1638294Z Downloading pip_api-0.0.35-py3-none-any.whl (123 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.1683485Z Downloading pip_requirements_parser-32.0.1-py3-none-any.whl (35 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.1730540Z Downloading platformdirs-4.14.5-py3-none-any.whl (35 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.1797451Z Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+verify	Install audit and test tools	2026-11-11T03:11:07.2059576Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 40.7 MB/s  0:00:00
+verify	Install audit and test tools	2026-11-11T03:11:07.2091864Z Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.2147939Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 139.3 MB/s  0:00:00
+verify	Install audit and test tools	2026-11-11T03:11:07.2178482Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.2254459Z Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (257 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.2301466Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.2361597Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.2416718Z Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.2467790Z Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.2519425Z Downloading markdown_it_py-4.3.0-py3-none-any.whl (96 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.2561847Z Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.2605003Z Downloading stevedore-5.9.1-py3-none-any.whl (54 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.2662867Z Downloading tomli-2.5.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (286 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.2719116Z Downloading tomli_w-1.2.0-py3-none-any.whl (6.7 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.2927395Z Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
+verify	Install audit and test tools	2026-11-11T03:11:07.3986867Z Installing collected packages: sortedcontainers, boolean.py, urllib3, typing_extensions, tomli-w, tomli, stevedore, PyYAML, pyparsing, pygments, pluggy, platformdirs, pip-api, packaging, packageurl-python, msgpack, mdurl, license-expression, iniconfig, idna, filelock, defusedxml, charset_normalizer, certifi, requests, pytest, py-serializable, pip-requirements-parser, markdown-it-py, rich, cyclonedx-python-lib, CacheControl, bandit, pip-audit
+verify	Install audit and test tools	2026-11-11T03:11:09.6348004Z 
+verify	Install audit and test tools	2026-11-11T03:11:09.6371205Z Successfully installed CacheControl-0.14.4 PyYAML-6.0.3 bandit-1.9.4 boolean.py-5.0 certifi-2026.10.23 charset_normalizer-3.5.2 cyclonedx-python-lib-11.12.0 defusedxml-0.7.1 filelock-4.2.10 idna-3.20 iniconfig-2.3.1 license-expression-30.4.4 markdown-it-py-4.3.0 mdurl-0.1.2 msgpack-1.2.4 packageurl-python-0.17.6 packaging-26.3 pip-api-0.0.35 pip-audit-2.10.1 pip-requirements-parser-32.0.1 platformdirs-4.14.5 pluggy-1.7.0 py-serializable-2.2.0 pygments-2.21.0 pyparsing-3.3.3 pytest-9.2.0 requests-2.34.2 rich-15.0.0 sortedcontainers-2.4.0 stevedore-5.9.1 tomli-2.5.0 tomli-w-1.2.0 typing_extensions-4.16.0 urllib3-2.8.0
+verify	Unit and security regression tests (pytest)	﻿2026-11-11T03:11:09.7747944Z ##[group]Run python -m pytest -q
+verify	Unit and security regression tests (pytest)	2026-11-11T03:11:09.7748330Z ^[[36;1mpython -m pytest -q^[[0m
+verify	Unit and security regression tests (pytest)	2026-11-11T03:11:09.7798228Z shell: /usr/bin/bash -e {0}
+verify	Unit and security regression tests (pytest)	2026-11-11T03:11:09.7798418Z env:
+verify	Unit and security regression tests (pytest)	2026-11-11T03:11:09.7798607Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Unit and security regression tests (pytest)	2026-11-11T03:11:09.7798883Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+verify	Unit and security regression tests (pytest)	2026-11-11T03:11:09.7799165Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Unit and security regression tests (pytest)	2026-11-11T03:11:09.7799403Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Unit and security regression tests (pytest)	2026-11-11T03:11:09.7799646Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Unit and security regression tests (pytest)	2026-11-11T03:11:09.7799881Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+verify	Unit and security regression tests (pytest)	2026-11-11T03:11:09.7800090Z ##[endgroup]
+verify	Unit and security regression tests (pytest)	2026-11-11T03:11:10.1266335Z .......                                                                  [100%]
+verify	Unit and security regression tests (pytest)	2026-11-11T03:11:10.1267019Z 7 passed in 0.01s
+verify	Static analysis (Bandit)	﻿2026-11-11T03:11:10.1549644Z ##[group]Run python -m bandit -r src -q
+verify	Static analysis (Bandit)	2026-11-11T03:11:10.1549915Z ^[[36;1mpython -m bandit -r src -q^[[0m
+verify	Static analysis (Bandit)	2026-11-11T03:11:10.1596084Z shell: /usr/bin/bash -e {0}
+verify	Static analysis (Bandit)	2026-11-11T03:11:10.1596254Z env:
+verify	Static analysis (Bandit)	2026-11-11T03:11:10.1596431Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Static analysis (Bandit)	2026-11-11T03:11:10.1596710Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+verify	Static analysis (Bandit)	2026-11-11T03:11:10.1597161Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Static analysis (Bandit)	2026-11-11T03:11:10.1597408Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Static analysis (Bandit)	2026-11-11T03:11:10.1597647Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Static analysis (Bandit)	2026-11-11T03:11:10.1597886Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+verify	Static analysis (Bandit)	2026-11-11T03:11:10.1598096Z ##[endgroup]
+verify	Dependency audit (pip-audit)	﻿2026-11-11T03:11:10.3022250Z ##[group]Run python -m pip_audit -r requirements-audit.txt
+verify	Dependency audit (pip-audit)	2026-11-11T03:11:10.3022568Z ^[[36;1mpython -m pip_audit -r requirements-audit.txt^[[0m
+verify	Dependency audit (pip-audit)	2026-11-11T03:11:10.3069324Z shell: /usr/bin/bash -e {0}
+verify	Dependency audit (pip-audit)	2026-11-11T03:11:10.3069507Z env:
+verify	Dependency audit (pip-audit)	2026-11-11T03:11:10.3069692Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Dependency audit (pip-audit)	2026-11-11T03:11:10.3069970Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib/pkgconfig
+verify	Dependency audit (pip-audit)	2026-11-11T03:11:10.3070239Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Dependency audit (pip-audit)	2026-11-11T03:11:10.3070487Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Dependency audit (pip-audit)	2026-11-11T03:11:10.3070737Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.16/x64
+verify	Dependency audit (pip-audit)	2026-11-11T03:11:10.3070982Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.16/x64/lib
+verify	Dependency audit (pip-audit)	2026-11-11T03:11:10.3071190Z ##[endgroup]
+verify	Dependency audit (pip-audit)	2026-11-11T03:11:15.1069034Z No known vulnerabilities found
+verify	Post Set up Python	﻿2026-11-11T03:11:15.1665048Z Post job cleanup.
+verify	Post Set up Python	2026-11-11T03:11:15.2623911Z (node:2320) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+verify	Post Set up Python	2026-11-11T03:11:15.2624449Z (Use `node --trace-deprecation ...` to show where the warning was created)
+verify	Post Checkout	﻿2026-11-11T03:11:15.2834912Z Post job cleanup.
+verify	Post Checkout	2026-11-11T03:11:15.3510481Z [command]/usr/bin/git version
+verify	Post Checkout	2026-11-11T03:11:15.3553281Z git version 2.56.0
+verify	Post Checkout	2026-11-11T03:11:15.3582134Z Temporarily overriding HOME='/home/runner/work/_temp/efa9e2c8-4b70-4381-924c-b98e22e0e7ca' before making global git config changes
+verify	Post Checkout	2026-11-11T03:11:15.3582901Z Adding repository directory to the temporary git global config as a safe directory
+verify	Post Checkout	2026-11-11T03:11:15.3587225Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Laboratorio-DevSecOps/Laboratorio-DevSecOps
+verify	Post Checkout	2026-11-11T03:11:15.3630415Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+verify	Post Checkout	2026-11-11T03:11:15.3669304Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+verify	Post Checkout	2026-11-11T03:11:15.3962896Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+verify	Post Checkout	2026-11-11T03:11:15.3994273Z http.https://github.com/.extraheader
+verify	Post Checkout	2026-11-11T03:11:15.4015209Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+verify	Post Checkout	2026-11-11T03:11:15.4074098Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+verify	Post Checkout	2026-11-11T03:11:15.4340262Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+verify	Post Checkout	2026-11-11T03:11:15.4377341Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+verify	Complete job	﻿2026-11-11T03:11:15.4804024Z Cleaning up orphan processes
+verify	Complete job	2026-11-11T03:11:15.5104254Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
