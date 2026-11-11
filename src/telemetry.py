@@ -3,14 +3,12 @@
 ALLOWED_OPERATION = "read"
 
 
-def is_operation_allowed(operation: str) -> bool:
-    """Autoriza únicamente operaciones de lectura.
+ALLOWED_OPERATIONS = frozenset({"read"})
 
-    REQ-SEC-01: las operaciones write no autorizadas deben rechazarse.
-    NOTA: este archivo contiene una regresión deliberada para el laboratorio.
-    """
-    # El desarrollador cambió esta condición durante una refactorización.
-    return operation in ("read", "write")
+
+def is_operation_allowed(operation: str) -> bool:
+    """Lista blanca con denegación por defecto: solo 'read'."""
+    return operation in ALLOWED_OPERATIONS
 
 
 def get_telemetry(operation: str, measurement: str = "temperature") -> dict:
